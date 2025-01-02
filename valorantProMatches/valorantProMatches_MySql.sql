@@ -72,7 +72,7 @@ CREATE TABLE `Games` (
 
 CREATE TABLE `Maps` (
     `map_id` INT NOT NULL,
-    `name` VARCHAR(100),
+    `name` VARCHAR(50),
     CONSTRAINT `PK_Maps` PRIMARY KEY (`map_id`)
 );
 
@@ -183,7 +183,7 @@ INSERT INTO `Events` (`event_id`, `eventName`) VALUES
    (784,'The Esports Club - Challenger Series 6'),
    (196,'First Strike: Europe'),
    (187,'First Strike: CIS'),
-   (8,'Absolute Masters')
+   (8,'Absolute Masters');
 
 
 INSERT INTO `Maps` (`map_id`, `name`) VALUES
@@ -194,7 +194,7 @@ INSERT INTO `Maps` (`map_id`, `name`) VALUES
    (5,'Ascent'),
    (6,'Split'),
    (7,'Fracture'),
-   (8,'TBD')
+   (8,'TBD');
 
 INSERT INTO `Matches` (`match_id`, `event_id`, `matchDate`) VALUES
    (62393,'2022/01/08 15:30',826),
@@ -313,7 +313,7 @@ INSERT INTO `Matches` (`match_id`, `event_id`, `matchDate`) VALUES
    (60856,'2021/12/22 09:30',809),
    (6097,'2020/11/20 10:00',187),
    (6129,'2020/11/18 11:00',196),
-   (618,'2020/07/16 12:00',8)
+   (618,'2020/07/16 12:00',8);
 
 
 INSERT INTO `Agents` (`agent_id`, `name`, `role`, `abilities`) VALUES
@@ -331,7 +331,7 @@ INSERT INTO `Agents` (`agent_id`, `name`, `role`, `abilities`) VALUES
    (12'cypher','Sentinel','Trapwire, Cyber Cage, Spycam, Neural Theft'),
    (13'breach','Initiator','Aftershock, Flashpoint, Fault Line, Rolling Thunder'),
    (14'omen','Controller','Paranoia, Shrouded Step, Dark Cover, From the Shadows'),
-   (15'brimstone','Controller','Incendiary, Stim Beacon, Sky Smoke, Orbital Strike')
+   (15'brimstone','Controller','Incendiary, Stim Beacon, Sky Smoke, Orbital Strike');
 
 INSERT INTO `Players` (`player_id`, `name`, `teamAbbreviation`) VALUES
    (8419,'Reduxx','Boos'),
@@ -853,7 +853,7 @@ INSERT INTO `Players` (`player_id`, `name`, `teamAbbreviation`) VALUES
    (18657,'WaspV2','FB'),
    (8842,'Mykoz','FB'),
    (10946,'Shalz','FB'),
-   (16459,'Elite','FB')
+   (16459,'Elite','FB');
 
 INSERT INTO `Games` (`game_id`, `match_id`, `map_id`, `team1_id`, `team2_id`, `winner`, 
                      `team1_TotalRounds`, `team2_TotalRounds`, `Team1_SideFirstHalf`, `Team2_SideFirstHalf`, 
@@ -863,7 +863,7 @@ INSERT INTO `Games` (`game_id`, `match_id`, `map_id`, `team1_id`, `team2_id`, `w
                      `Team1_SemiEcoWon`, `Team1_SemiBuy`, `Team1_SemiBuyWon`, `Team1_FullBuy`, 
                      `Team1_FullBuyWon`, `Team2_PistolWon`, `Team2_Eco`, `Team2_EcoWon`, 
                      `Team2_SemiEco`, `Team2_SemiEcoWon`, `Team2_SemiBuy`, `Team2_SemiBuyWon`, 
-                     `Team2_FullBuy`, `Team2_FullBuyWon`) 
+                     `Team2_FullBuy`, `Team2_FullBuyWon`);
 VALUES
    (60894,62393,1,6903,6020,'Booster Seat Gaming',13,7,'defend','attack',7,6,0,5,7,2,0,2,2,2,0,0,5,3,13,8,0,4,0,2,0,4,1,10,6),
    (60895,62393,2,6903,6020,'Pho Real',2,13,'defend','attack',2,0,0,10,13,3,0,0,3,0,3,0,5,1,4,1,2,2,2,0,0,4,3,9,8),
@@ -3591,4 +3591,4 @@ VALUES
    (2467,60231,18657,1,205,15,17,60231,4,-2,0.57,130,0.39,5,4,1,4,1,0,0,0,0,0,0,0,46,0,1),
    (2468,60231,8842,9,205,17,17,60231,8,0,0.78,148,0.22,2,2,0,2,1,0,0,0,0,0,0,0,61,1,0),
    (2469,60231,10946,13,184,15,19,60231,2,-4,0.7,120,0.25,4,2,2,3,0,0,0,0,0,0,0,0,44,2,0),
-   (2470,60231,16459,10,170,13,19,60231,5,-6,0.7,123,0.36,0,1,-1,2,0,0,0,0,0,0,0,0,46,0,0)
+   (2470,60231,16459,10,170,13,19,60231,5,-6,0.7,123,0.36,0,1,-1,2,0,0,0,0,0,0,0,0,46,0,0);
