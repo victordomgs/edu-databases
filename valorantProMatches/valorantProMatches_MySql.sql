@@ -99,6 +99,7 @@ CREATE TABLE `Players` (
 );
 
 CREATE TABLE Player_Stats (
+    playerStats_id INT NOT NULL,
     game_id INT NOT NULL,
     player_id INT NOT NULL,
     agent VARCHAR(50),
@@ -126,7 +127,7 @@ CREATE TABLE Player_Stats (
     Econ INT,
     Plants INT,
     Defuse INT,
-    CONSTRAINT PK_Game_Stats PRIMARY KEY (game_id, player_id, agent_id)
+    CONSTRAINT PK_Player_Stats PRIMARY KEY (playerStats_id)
 );
 /*******************************************************************************
    Create Foreign Keys
