@@ -72,7 +72,7 @@ CREATE TABLE `Games` (
 
 CREATE TABLE `Maps` (
     `map_id` INT NOT NULL,
-    `name` VARCHAR(50),
+    `name` VARCHAR(100),
     CONSTRAINT `PK_Maps` PRIMARY KEY (`map_id`)
 );
 
