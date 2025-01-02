@@ -1,5 +1,5 @@
 /*******************************************************************************
-   Chinook Database - Version 1.0.0
+   valorantProMatches Database - Version 1.0.0
    Script: valorantProMatches_MySql.sql
    Description: Creates and populates the valorantProMatches database.
    Dataset base: https://www.kaggle.com/datasets/visualize25/valorant-pro-matches-full-data
