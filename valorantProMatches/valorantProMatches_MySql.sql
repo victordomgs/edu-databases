@@ -28,7 +28,7 @@ USE `valorantProMatches`;
 
 CREATE TABLE `Events` (
     `event_id` INT NOT NULL,
-    `eventName` VARCHAR(500)
+    `eventName` VARCHAR(500),
     CONSTRAINT `PK_Events` PRIMARY KEY (`event_id`)
 );
 
@@ -72,7 +72,7 @@ CREATE TABLE `Games` (
 
 CREATE TABLE `Maps` (
     `map_id` INT NOT NULL,
-    `name` VARCHAR(50)
+    `name` VARCHAR(50),
     CONSTRAINT `PK_Maps` PRIMARY KEY (`map_id`)
 );
 
@@ -87,14 +87,14 @@ CREATE TABLE `Agents` (
     `agent_id` INT NOT NULL,
     `name` VARCHAR(50),
     `role` VARCHAR(50),
-    `abilities` TEXT
+    `abilities` TEXT,
     CONSTRAINT `PK_Agents` PRIMARY KEY (`agent_id`)
 );
 
 CREATE TABLE `Players` (
     `player_id` INT NOT NULL,
     `name` VARCHAR(50) NOT NULL,
-    `teamAbbreviation` VARCHAR(50)
+    `teamAbbreviation` VARCHAR(50),
     CONSTRAINT `PK_Players` PRIMARY KEY (`player_id`)
 );
 
