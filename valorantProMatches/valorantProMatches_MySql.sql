@@ -187,14 +187,14 @@ INSERT INTO `Events` (`event_id`, `eventName`) VALUES
 
 
 INSERT INTO `Maps` (`map_id`, `name`) VALUES
-   (1,Breeze),
-   (2,Bind),
-   (3,Haven),
-   (4,Icebox),
-   (5,Ascent),
-   (6,Split),
-   (7,Fracture),
-   (8,TBD)
+   (1,'Breeze'),
+   (2,'Bind'),
+   (3,'Haven'),
+   (4,'Icebox'),
+   (5,'Ascent'),
+   (6,'Split'),
+   (7,'Fracture'),
+   (8,'TBD')
 
 INSERT INTO `Matches` (`match_id`, `event_id`, `matchDate`) VALUES
    (62393,'2022/01/08 15:30',826),
