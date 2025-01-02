@@ -196,7 +196,7 @@ INSERT INTO `Maps` (`map_id`, `name`) VALUES
    (7,'Fracture'),
    (8,'TBD');
 
-INSERT INTO `Matches` (`match_id`, `event_id`, `matchDate`) VALUES
+INSERT INTO `Matches` (`match_id`, `matchDate`, `event_id`) VALUES
    (62393,'2022/01/08 15:30',826),
    (62403,'2022/01/08 15:30',826),
    (62391,'2022/01/08 12:30',826),
