@@ -317,21 +317,21 @@ INSERT INTO `Matches` (`match_id`, `event_id`, `matchDate`) VALUES
 
 
 INSERT INTO `Agents` (`agent_id`, `name`, `role`, `abilities`) VALUES
-   (1'jett','Duelist','Tailwind, Updraft, Cloudburst, Blade Storm'),
-   (2'chamber','Sentinel','Headhunter, Trademark, Rendezvous, Tour De Force'),
-   (3'sova','Initiator','Shock Bolt, Recon Bolt, Owl Drone, Hunter's Fury'),
-   (4'viper','Controller','Snake Bite, Poison Cloud, Toxic Screen, Viper's Pit'),
-   (5'skye','Initiator','Regrowth, Trailblazer, Guiding Light, Seekers'),
-   (6'astra','Controller','Gravity Well, Nova Pulse, Nebula, Astral Form'),
-   (7'raze','Duelist','Boom Bot, Paint Shells, Blast Pack, Showstopper'),
-   (8'sage','Sentinel','Barrier Orb, Slow Orb, Healing Orb, Resurrection'),
-   (9'kayo','Initiator','Zero/Point, Flash/Drive, Frag/Ment, Null/Cmd'),
-   (10'killjoy','Sentinel','Alarmbot, Nanoswarm, Turret, Lockdown'),
-   (11'reyna','Duelist','Leer, Devour, Dismiss, Empress'),
-   (12'cypher','Sentinel','Trapwire, Cyber Cage, Spycam, Neural Theft'),
-   (13'breach','Initiator','Aftershock, Flashpoint, Fault Line, Rolling Thunder'),
-   (14'omen','Controller','Paranoia, Shrouded Step, Dark Cover, From the Shadows'),
-   (15'brimstone','Controller','Incendiary, Stim Beacon, Sky Smoke, Orbital Strike');
+   (1,'jett','Duelist','Tailwind, Updraft, Cloudburst, Blade Storm'),
+   (2,'chamber','Sentinel','Headhunter, Trademark, Rendezvous, Tour De Force'),
+   (3,'sova','Initiator','Shock Bolt, Recon Bolt, Owl Drone, Hunters Fury'),
+   (4,'viper','Controller','Snake Bite, Poison Cloud, Toxic Screen, Vipers Pit'),
+   (5,'skye','Initiator','Regrowth, Trailblazer, Guiding Light, Seekers'),
+   (6,'astra','Controller','Gravity Well, Nova Pulse, Nebula, Astral Form'),
+   (7,'raze','Duelist','Boom Bot, Paint Shells, Blast Pack, Showstopper'),
+   (8,'sage','Sentinel','Barrier Orb, Slow Orb, Healing Orb, Resurrection'),
+   (9,'kayo','Initiator','Zero/Point, Flash/Drive, Frag/Ment, Null/Cmd'),
+   (10,'killjoy','Sentinel','Alarmbot, Nanoswarm, Turret, Lockdown'),
+   (11,'reyna','Duelist','Leer, Devour, Dismiss, Empress'),
+   (12,'cypher','Sentinel','Trapwire, Cyber Cage, Spycam, Neural Theft'),
+   (13,'breach','Initiator','Aftershock, Flashpoint, Fault Line, Rolling Thunder'),
+   (14,'omen','Controller','Paranoia, Shrouded Step, Dark Cover, From the Shadows'),
+   (15,'brimstone','Controller','Incendiary, Stim Beacon, Sky Smoke, Orbital Strike');
 
 INSERT INTO `Players` (`player_id`, `name`, `teamAbbreviation`) VALUES
    (8419,'Reduxx','Boos'),
