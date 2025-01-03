@@ -29,7 +29,7 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
 
 ---
 
-## **Cómo cargar un archivo .sql en MySQL**
+## **Cómo cargar un archivo `.sql` en MySQL**
 1. Asegúrate de estar conectado al servidor MySQL.
 2. Una vez conectado al servidor, usa el comando `SOURCE` para cargar el archivo `.sql`. Este comando ejecutará todo el contenido del archivo en el servidor MySQL.
 
