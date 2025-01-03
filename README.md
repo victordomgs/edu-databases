@@ -24,4 +24,4 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
 2. Escribe el siguiente comando para conectarte al servidor MySQL:
    ```bash
    mysql -u root -p
-   ```bash
+
