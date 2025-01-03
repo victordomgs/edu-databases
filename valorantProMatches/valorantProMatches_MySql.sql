@@ -289,6 +289,7 @@ INSERT INTO `Teams` (`team_id`, `name`) VALUES
 
 INSERT INTO `Events` (`event_id`, `eventName`) VALUES
    (826,'Nerd Street Gamers Winter Championship - Regional LAN Philadelphia'),
+   (825,'Nerd Street Gamers Winter Championship - Open 12'),
    (843,'The Esports Club Gauntlet - Season 4'),
    (838,'Gamers Galaxy Valorant'),
    (769,'SEA Esports Championship 2021'),
@@ -304,6 +305,7 @@ INSERT INTO `Events` (`event_id`, `eventName`) VALUES
    (784,'The Esports Club - Challenger Series 6'),
    (196,'First Strike: Europe'),
    (187,'First Strike: CIS'),
+   (2,'Valhalla Invitational'),
    (8,'Absolute Masters');
 
 
