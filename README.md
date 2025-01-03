@@ -67,3 +67,7 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
 - Password: Haz clic en el botón **Store in Vault ...** y escribe la contraseña del usuario.
 
 ![Configurar nueva conexión](https://github.com/victordomgs/edu-databases/blob/main/images/setup-new-connection.png)
+
+4. Comprueba que la conexión se ha creado correctamente en el botón **Test Connection**.
+
+![Configuración correcta](https://github.com/victordomgs/edu-databases/blob/main/images/successful-connection.png)
