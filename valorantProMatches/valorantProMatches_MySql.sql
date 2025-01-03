@@ -28,7 +28,7 @@ USE `valorantProMatches`;
 
 CREATE TABLE `Events` (
     `event_id` INT NOT NULL,
-    `eventName` VARCHAR(500),
+    `eventName` VARCHAR(500) NOT NULL,
     CONSTRAINT `PK_Events` PRIMARY KEY (`event_id`)
 );
 
