@@ -36,7 +36,7 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
    ```bash
    SOURCE C:\Users\nombreUsuario\Downloads\archivo.sql;
 
-   ---
+---
 
 ## **Cómo verificar y utilizar la base de datos**
 1. Lista las bases de datos:
