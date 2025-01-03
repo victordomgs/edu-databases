@@ -20,8 +20,9 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
 
 ## **Cómo conectar al servidor MySQL**
 
-1. Abre una terminal o el CMD.
+1. Abre una terminal o el CMD con permisos de administrador.
 2. Escribe el siguiente comando para conectarte al servidor MySQL:
+
    ```bash
    mysql -u root -p
 
