@@ -38,7 +38,7 @@ CREATE TABLE `Games` (
     `map_id` INT NOT NULL,
     `team1_id` INT NOT NULL,
     `team2_id` INT NOT NULL,
-    `winner` INT,
+    `winner` VARCHAR(50),
     `team1_TotalRounds` INT,
     `team2_TotalRounds` INT,
     `Team1_SideFirstHalf` VARCHAR(10),
