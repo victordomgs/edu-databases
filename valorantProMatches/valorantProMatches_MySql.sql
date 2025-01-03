@@ -183,108 +183,108 @@ ON DELETE CASCADE ON UPDATE NO ACTION;
 ********************************************************************************/
 
 INSERT INTO `Teams` (`team_id`, `name`) VALUES
-   (6903,'Booster Seat Gaming')
-   (7046,'Bjors Kittens')
-   (6461,'Akrew')
-   (6164,'Radiance')
-   (7045,'Salt and Vinegar')
-   (7047,'Mugiwara')
-   (4733,'True Rippers')
-   (7043,'sameROFLMAO')
-   (6384,'Clarity Esports')
-   (4829,'Team Valor')
-   (466,'BOOM Esports')
-   (4809,'Team Exploit')
-   (6799,'Goodfellas Gaming')
-   (4150,'South Built Esports')
-   (6389,'Bren Esports')
-   (4325,'CERBERUS Esports')
-   (642,'Luminosity')
-   (468,'Renegades')
-   (6817,'ex-FLICKBAITERS')
-   (1615,'Knights')
-   (1470,'NASR Esports')
-   (3337,'Team Basilisk')
-   (6198,'Knights Academy')
-   (6653,'GunsForHire')
-   (6859,'Aspyre')
-   (6213,'Cloud9 Academy')
-   (6204,'Nemesis')
-   (2348,'VIRTUOSO')
-   (5832,'Zero MarksMen Black')
-   (6045,'Lenny Time')
-   (6148,'Project A')
-   (2139,'303 Esports')
-   (4529,'IlluZion')
-   (2378,'SUPER SQUAD')
-   (6990,'LFTval')
-   (6992,'CLB')
-   (6451,'Built By Gamers Academy')
-   (6991,'Rose')
-   (5444,'Bait Academy')
-   (6782,'Up Next')
-   (5997,'FS Esports ')
-   (6144,'The Mafia')
-   (4330,'Fancy United Esports')
-   (6478,'ex-Serenity Black')
-   (6986,'Ex-Dallas Vendetta')
-   (6776,'The Meaps')
-   (1471,'Team RAAD')
-   (6085,'3BL Esports')
-   (6110,'Tactical Five')
-   (4696,'Surreal Esports')
-   (918,'Global Esports')
-   (4324,'FEARUS')
-   (6534,'Fire Flux Young')
-   (1110,'Alter Ego')
-   (2908,'Thunderbolts Gaming')
-   (5366,'Action PH')
-   (6092,'Regnum Carya Esports')
-   (5310,'FenerbahÃ§e Esports')
-   (6899,'Fallen5')
-   (6934,'Minaweebs Money Crew')
-   (4455,'Third Impact')
-   (3748,'Team Reckaroo')
-   (6020,'Pho Real')
-   (4762,'Galakticos')
-   (5038,'YFP Gaming')
-   (388,'DivisionX Gaming')
-   (623,'Sharper Esport')
-   (5482,'Kowareta')
-   (6651,'ex-Limit')
-   (6679,'Disciples ')
-   (879,'Todak')
-   (1919,'Kingsmen')
-   (3545,'CLG Red')
-   (1453,'OtherSide')
-   (4807,'Team Arrow')
-   (4647,'CoT')
-   (4680,'T69')
-   (7042,'Squishy and Friends')
-   (7044,'Brolympics eSports')
-   (6477,'Fear Legends')
-   (6982,'Nine Esport')
-   (6844,'shiba n the homies')
-   (6807,'W Key')
-   (6856,'Icarus')
-   (6707,'Gifted')
-   (6879,'Zenigma Alpha')
-   (6858,'Trash Pandas')
-   (6848,'Hugh Jass Construction')
-   (6912,'Bully Hunters')
-   (6989,'Iconic')
-   (6388,'ValorsGG')
-   (5457,'Valkyrie')
-   (5601,'Nightblood Gaming')
-   (6664,'Oni Fans')
-   (6417,'Fluid Gaming')
-   (4860,'DOMINUS')
-   (6994,'wafflemakers')
-   (6993,'Dark Tempest')
-   (7001,'cismix')
-   (6970,'Take It Easy')
-   (6967,'Homies Nexus')
-   (6392,'Eternal Fire')
+   (6903,'Booster Seat Gaming'),
+   (7046,'Bjors Kittens'),
+   (6461,'Akrew'),
+   (6164,'Radiance'),
+   (7045,'Salt and Vinegar'),
+   (7047,'Mugiwara'),
+   (4733,'True Rippers'),
+   (7043,'sameROFLMAO'),
+   (6384,'Clarity Esports'),
+   (4829,'Team Valor'),
+   (466,'BOOM Esports'),
+   (4809,'Team Exploit'),
+   (6799,'Goodfellas Gaming'),
+   (4150,'South Built Esports'),
+   (6389,'Bren Esports'),
+   (4325,'CERBERUS Esports'),
+   (642,'Luminosity'),
+   (468,'Renegades'),
+   (6817,'ex-FLICKBAITERS'),
+   (1615,'Knights'),
+   (1470,'NASR Esports'),
+   (3337,'Team Basilisk'),
+   (6198,'Knights Academy'),
+   (6653,'GunsForHire'),
+   (6859,'Aspyre'),
+   (6213,'Cloud9 Academy'),
+   (6204,'Nemesis'),
+   (2348,'VIRTUOSO'),
+   (5832,'Zero MarksMen Black'),
+   (6045,'Lenny Time'),
+   (6148,'Project A'),
+   (2139,'303 Esports'),
+   (4529,'IlluZion'),
+   (2378,'SUPER SQUAD'),
+   (6990,'LFTval'),
+   (6992,'CLB'),
+   (6451,'Built By Gamers Academy'),
+   (6991,'Rose'),
+   (5444,'Bait Academy'),
+   (6782,'Up Next'),
+   (5997,'FS Esports '),
+   (6144,'The Mafia'),
+   (4330,'Fancy United Esports'),
+   (6478,'ex-Serenity Black'),
+   (6986,'Ex-Dallas Vendetta'),
+   (6776,'The Meaps'),
+   (1471,'Team RAAD'),
+   (6085,'3BL Esports'),
+   (6110,'Tactical Five'),
+   (4696,'Surreal Esports'),
+   (918,'Global Esports'),
+   (4324,'FEARUS'),
+   (6534,'Fire Flux Young'),
+   (1110,'Alter Ego'),
+   (2908,'Thunderbolts Gaming'),
+   (5366,'Action PH'),
+   (6092,'Regnum Carya Esports'),
+   (5310,'FenerbahÃ§e Esports'),
+   (6899,'Fallen5'),
+   (6934,'Minaweebs Money Crew'),
+   (4455,'Third Impact'),
+   (3748,'Team Reckaroo'),
+   (6020,'Pho Real'),
+   (4762,'Galakticos'),
+   (5038,'YFP Gaming'),
+   (388,'DivisionX Gaming'),
+   (623,'Sharper Esport'),
+   (5482,'Kowareta'),
+   (6651,'ex-Limit'),
+   (6679,'Disciples '),
+   (879,'Todak'),
+   (1919,'Kingsmen'),
+   (3545,'CLG Red'),
+   (1453,'OtherSide'),
+   (4807,'Team Arrow'),
+   (4647,'CoT'),
+   (4680,'T69'),
+   (7042,'Squishy and Friends'),
+   (7044,'Brolympics eSports'),
+   (6477,'Fear Legends'),
+   (6982,'Nine Esport'),
+   (6844,'shiba n the homies'),
+   (6807,'W Key'),
+   (6856,'Icarus'),
+   (6707,'Gifted'),
+   (6879,'Zenigma Alpha'),
+   (6858,'Trash Pandas'),
+   (6848,'Hugh Jass Construction'),
+   (6912,'Bully Hunters'),
+   (6989,'Iconic'),
+   (6388,'ValorsGG'),
+   (5457,'Valkyrie'),
+   (5601,'Nightblood Gaming'),
+   (6664,'Oni Fans'),
+   (6417,'Fluid Gaming'),
+   (4860,'DOMINUS'),
+   (6994,'wafflemakers'),
+   (6993,'Dark Tempest'),
+   (7001,'cismix'),
+   (6970,'Take It Easy'),
+   (6967,'Homies Nexus'),
+   (6392,'Eternal Fire');
 
 
 INSERT INTO `Events` (`event_id`, `eventName`) VALUES
