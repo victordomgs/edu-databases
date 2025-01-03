@@ -57,6 +57,10 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
 ---
 
 ## **Cómo conectar a MySQL Workbench**
+
+> [!NOTE]  
+> Por defecto MySQL establece una conexión con Workbench. Por tanto no es necesario seguir estos pasos si la conexión ya existe.
+
 1. Inicia MySQL Workbench.
 2. Haz clic en el icono "+" que aparece junto a **MySQL Connections**.
 3. Configura la conexión:
