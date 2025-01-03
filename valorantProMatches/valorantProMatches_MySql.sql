@@ -984,7 +984,7 @@ INSERT INTO `Games` (`game_id`, `match_id`, `map_id`, `team1_id`, `team2_id`, `w
                      `Team1_SemiEcoWon`, `Team1_SemiBuy`, `Team1_SemiBuyWon`, `Team1_FullBuy`, 
                      `Team1_FullBuyWon`, `Team2_PistolWon`, `Team2_Eco`, `Team2_EcoWon`, 
                      `Team2_SemiEco`, `Team2_SemiEcoWon`, `Team2_SemiBuy`, `Team2_SemiBuyWon`, 
-                     `Team2_FullBuy`, `Team2_FullBuyWon`);
+                     `Team2_FullBuy`, `Team2_FullBuyWon`)
 VALUES
    (60894,62393,1,6903,6020,'Booster Seat Gaming',13,7,'defend','attack',7,6,0,5,2,0,2,2,2,0,0,5,3,13,8,0,4,0,2,0,4,1,10,6),
    (60895,62393,2,6903,6020,'Pho Real',2,13,'defend','attack',2,0,0,10,3,0,0,3,0,3,0,5,1,4,1,2,2,2,0,0,4,3,9,8),
