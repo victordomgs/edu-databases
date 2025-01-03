@@ -60,10 +60,10 @@ Este repositorio contiene una colección de bases de datos diseñadas con fines 
 1. Inicia MySQL Workbench.
 2. Haz clic en el icono "+" que aparece junto a **MySQL Connections**.
 3. Configura la conexión:
-Connection Name: Dale un nombre a la conexión.
-Hostname: Si MySQL está en tu computadora, escribe: `localhost`. Si es un servidor remoto, escribe la dirección IP o el nombre de dominio.
-Port: Por defecto es `3306`. Si usas otro puerto lo tienes que indicar aquí.
-Username: Por defecto `root`.
-Password: Haz clic en el botón **Store in Vault ...** y escribe la contraseña del usuario.
+- Connection Name: Dale un nombre a la conexión.
+- Hostname: Si MySQL está en tu computadora, escribe: `localhost`. Si es un servidor remoto, escribe la dirección IP o el nombre de dominio.
+- Port: Por defecto es `3306`. Si usas otro puerto lo tienes que indicar aquí.
+- Username: Por defecto `root`.
+- Password: Haz clic en el botón **Store in Vault ...** y escribe la contraseña del usuario.
 
 ![Configurar nueva conexión](https://github.com/victordomgs/edu-databases/blob/main/images/setup-new-connection.png)
